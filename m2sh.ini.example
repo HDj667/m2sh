@@ -1,0 +1,23 @@
+# m2sh Configuration File Example
+# 
+# This file can be placed in one of the following locations:
+# - ./m2sh.ini (current directory)
+# - ~/.m2sh.ini (home directory)
+# - ~/.config/m2sh.ini (XDG config directory)
+# - /etc/m2sh/m2sh.ini (system-wide)
+#
+# Environment variables have higher priority than config file values:
+# MM_URL, MM_USERNAME, MM_PASSWORD
+#
+# Copy this file to one of the above locations and rename it to m2sh.ini
+
+# Mattermost server URL (required)
+url = https://mattermost.example.com
+
+# Mattermost username (required)
+username = your-username
+
+# Mattermost password (optional, will be prompted if not set)
+# Note: For security reasons, it's recommended to leave this empty
+# and enter the password interactively or use MM_PASSWORD environment variable
+password = 
